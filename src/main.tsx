@@ -13,6 +13,12 @@ declare module '@mui/material/styles' {
     font?: {
       main: string
     }
+    bggrey?: {
+      main: string
+    }
+    bgwhite?: {
+      main: string
+    }
   }
 }
 
@@ -29,6 +35,12 @@ const theme = createTheme({
     },
     font: {
       main: '#FFF8F0'
+    },
+    bggrey: {
+      main: '#453950'
+    },
+    bgwhite: {
+      main: '#FFF5EC'
     }
   },
   typography: {

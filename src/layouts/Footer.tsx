@@ -7,7 +7,7 @@ import discord from '../assets/discord.png'
 
 function Footer (): JSX.Element {
   return (
-    <footer className='bg-primary flex flex-col items-center text-font'>
+    <footer className='bg-footer flex flex-col items-center text-font bg-cover'>
       <figure className=' p-2'>
         <img src={logo} alt='lastone' className='h-10 opacity-40' />
       </figure>
